@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1139929498/vector/happy-woman-exercising-in-the-park-vector-illustration-in-flat-style-concept-illustration.jpg?s=612x612&w=0&k=20&c=r-sSW5XtIooyE2Wk9EgBPJQdsUS4Jecw63VNGvCHG7E=);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+#vid{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+:root{
+   --underweight:orange;
+   --normal:green;
+   --overweight:lightcoral;
+   --obesity:crimson;
+
+}
+.output{
+    text-align: center;
+}
+
+.output #bmi{
+    font-size:4rem ;
+}
+.output #desc strong{
+    text-transform: uppercase;
+}
+
+.bmi-scale{
+    display: flex;
+    
+}
+.bmi-scale div{
+    flex:1 ;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 5px solid var(--color);
+    padding: 10px;
+    
+}
+.bmi-scale h4{
+    font-size: 0.75rem;
+    color: slategray;
+}
+
+.underweight {
+    color: var(--underweight);
+}
+.healthy{
+    color: var(--normal);
+}
+.overweight{
+    color: var(--overweight);
+}
+.obesity{
+    color: var(--obesity);
+}
