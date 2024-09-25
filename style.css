@@ -33,12 +33,14 @@ body{
     border-radius: 10px;
     background: #00a1a3;
     color: #fff;
+    border-color: #00a1a3;
 }
 .container button:hover{
     filter: brightness(120%);
 }
 .container button[type='reset']{
     background: #444;
+    border-color: #444;
 }
 
 
