@@ -8,19 +8,40 @@ body{
     background-position: right;
     
 }
+:root{
+    --underweight:orange;
+    --normal:green;
+    --overweight:lightcoral;
+    --obesity:crimson;
+ 
+ }
+
+
 #vid{
     position:absolute;
     margin-top: 200px;
     margin-left: 60px;
     
 }
-:root{
-   --underweight:orange;
-   --normal:green;
-   --overweight:lightcoral;
-   --obesity:crimson;
-
+.container input{
+    text-align: center;
 }
+.container button{
+    margin: 8px 55px;
+    height: 60px;
+    width: 28%;
+    border-radius: 10px;
+    background: #00a1a3;
+    color: #fff;
+}
+.container button:hover{
+    filter: brightness(120%);
+}
+.container button[type='reset']{
+    background: #444;
+}
+
+
 .output{
     text-align: center;
 }
@@ -49,7 +70,7 @@ body{
     color: slategray;
 }
 
-.underweight {
+.underweight{
     color: var(--underweight);
 }
 .healthy{

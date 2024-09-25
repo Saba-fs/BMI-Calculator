@@ -3,6 +3,13 @@ const desctext=document.getElementById('desc')
 const form=document.querySelector('form')
 
 form.addEventListener('submit',onFormSubmit)
+form.addEventListener('reset',onFormReset)
+
+function onFormReset(){
+    bmitext.textContent=0
+    bmitext.className=''
+    desctext.textContent='N/A'
+}
 
 function onFormSubmit(e)
 {
