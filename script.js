@@ -46,6 +46,6 @@ function interpretBMI(bmi)
         return "overweight"
     }
     else{
-        return "obesity"
+        return "obese"
     }
 }

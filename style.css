@@ -7,7 +7,7 @@
     --underweight:orange;
     --normal:green;
     --overweight:lightcoral;
-    --obesity:crimson;
+    --obese:crimson;
  
  }
 
@@ -18,14 +18,17 @@
     margin-left: 200px;
     height: 400px; 
 }
- .container{
+
+.container{
 width: 30%;
 margin-left: 700px;
 margin-top: 100px;
  }
+
 .container input{
     text-align: center;
 }
+
 .container button{
     margin: 8px 55px;
     height: 60px;
@@ -35,9 +38,11 @@ margin-top: 100px;
     color: #fff;
     border-color: #00a1a3;
 }
+
 .container button:hover{
     filter: brightness(120%);
 }
+
 .container button[type='reset']{
     background: #444;
     border-color: #444;
@@ -81,6 +86,6 @@ margin-top: 100px;
 .overweight{
     color: var(--overweight);
 }
-.obesity{
-    color: var(--obesity);
+.obese{
+    color: var(--obese);
 }
