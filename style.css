@@ -17,10 +17,12 @@ body{
  }
 
 
-#vid{
+#gifvideo{
     position:absolute;
     margin-top: 200px;
     margin-left: 60px;
+    height: 450px;
+    
     
 }
 .container input{
